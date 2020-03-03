@@ -31,6 +31,8 @@ The backend is done in Node with Express
 
 - Misses DIV to let the user know what guesses were misses
 
+- Disabled HTML form input autocomplete and autofill for better UX
+
 ## Endpoints
 
 #### Words
