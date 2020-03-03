@@ -1,0 +1,38 @@
+{
+  "name": "hangman_game",
+  "version": "1.0.0",
+  "description": "A hangman game. It's always about food.",
+  "main": "server.js",
+  "scripts": {
+    "build:scss": "node-sass ./scss/ -o ./public/css/",
+    "watch:scss": "yarn build:scss && node-sass -w -r ./scss/ -o ./public/css/",
+    "start": "yarn build:scss && node server.js",
+    "dev": "concurrently \"nodemon -e js,ejs server.js\" \"yarn watch:scss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dani-santos-code/hangman.git"
+  },
+  "keywords": [
+    "hangman",
+    "full-stack",
+    "js",
+    "vanilla",
+    "js"
+  ],
+  "author": "Daniele Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dani-santos-code/hangman/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.9.1",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2"
+  },
+  "homepage": "https://github.com/dani-santos-code/hangman#readme"
+}
