@@ -23,7 +23,7 @@ The backend is done in Node with Express
 
 - If user loses, a losing message is displayed
 
-- Created 2 main endpoints that in a way that the word is never exposed to the frontend
+- Created 2 main endpoints in a way that the word is never exposed to the frontend
 
 - Added a middleware to validate the wordId input coming from the FE
 
