@@ -6,6 +6,11 @@ This is a project done when I was attending the Full-Stack coding bootcamp at [C
 
 Run `yarn install` followed by `yarn dev`
 
+## Stack
+
+This projects has been done with vanilla JS, CSS in the FE.
+The backend is done in Node with Express
+
 ## What has been implemented
 
 - A dataset containing 20 words, including a hint to make it easier to guess the word. If the user clicks on the hint, they will lose 1 point
