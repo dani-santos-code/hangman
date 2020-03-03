@@ -3,7 +3,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const { idValidation } = require("./middleware/idValidation");
-const { handleWords, handleGuess, handleCountById } = require("./controllers");
+const { handleGuess, handleCountById } = require("./controllers");
 
 const app = express();
 const PORT = process.env.PORT || 8000;

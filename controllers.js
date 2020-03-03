@@ -1,12 +1,4 @@
-const { clients } = require("./data/clients");
 const { words } = require("./data/words");
-
-const handleWords = (req, res) => {
-  if (!words) {
-    res.send(404);
-  }
-  res.json(words);
-};
 
 const handleCountById = (req, res, next) => {
   const { wordId } = req.params;
@@ -43,8 +35,6 @@ const handleGuess = (req, res) => {
 };
 
 module.exports = {
-  handleClient,
-  handleWords,
   handleGuess,
   handleCountById
 };
