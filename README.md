@@ -4,7 +4,7 @@ This is a project done when I was attending the Full-Stack coding bootcamp at Co
 
 # Running The Project
 
-Run `yarn instal` followed by `yarn dev`
+Run `yarn install` followed by `yarn dev`
 
 # What has been implemented
 
@@ -27,7 +27,7 @@ Run `yarn instal` followed by `yarn dev`
 - Misses DIV to let the user know what guesses were misses
 
 **Winning flow**
-<img src="" />
+<img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/win.gif" height="200px"  width="200px"/>
 
 **Losing Flow**
-<img src="" />
+<img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/lose.gif" height="200px"  width="200px"/>
