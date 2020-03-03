@@ -16,7 +16,6 @@ app.use(express.urlencoded({ extended: false }));
 app.get("/", (req, res) => {
   res.redirect("/hangman");
 });
-app.get("/hangman/words", handleWords);
 app.use("/hangman/:wordId", idValidation);
 app.get("/hangman/:wordId", handleCountById);
 app.get("/hangman/guess/:wordId/:letter", handleGuess);
