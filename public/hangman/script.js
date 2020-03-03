@@ -12,7 +12,7 @@ const arrValues = [];
 const word = [];
 
 const generateDivs = async randomId => {
-  const response = await fetch(`/hangman/${randomId}`);
+  const response = await fetch(`/api/v1/hangman/${randomId}`);
   const { letterCount } = await response.json();
   for (i = 0; i < letterCount; i++) {
     const div = document.createElement("div");
@@ -30,7 +30,7 @@ const handleSubmit = async () => {
   document.getElementById("message").innerText = "";
 
   const letter = document.getElementById("letter").value.toLowerCase();
-  const response = await fetch(`/hangman/guess/${randomId}/${letter}`);
+  const response = await fetch(`/api/v1/hangman/guess/${randomId}/${letter}`);
   const { trueIndexes, letterCount } = await response.json();
 
   if (trueIndexes.length !== 0) {
@@ -77,7 +77,7 @@ const checkEnd = letterCount => {
 };
 
 const getHints = async randomId => {
-  const response = await fetch(`/hangman/${randomId}`);
+  const response = await fetch(`/api/v1/hangman/${randomId}`);
   const { hint } = await response.json();
   return hint;
 };

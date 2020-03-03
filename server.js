@@ -16,9 +16,9 @@ app.use(express.urlencoded({ extended: false }));
 app.get("/", (req, res) => {
   res.redirect("/hangman");
 });
-app.use("/hangman/:wordId", idValidation);
-app.get("/hangman/:wordId", handleCountById);
-app.get("/hangman/guess/:wordId/:letter", handleGuess);
+app.use("/api/v1/hangman/:wordId", idValidation);
+app.get("/api/v1/hangman/:wordId", handleCountById);
+app.get("/api/v1/hangman/guess/:wordId/:letter", handleGuess);
 
 app.listen(PORT, () =>
   console.log(`Listening on port ${PORT}. http://www.localhost:${PORT}`)
