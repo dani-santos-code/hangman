@@ -6,7 +6,7 @@
   "scripts": {
     "build:scss": "node-sass ./scss/ -o ./public/css/",
     "watch:scss": "yarn build:scss && node-sass -w -r ./scss/ -o ./public/css/",
-    "start": "concurrently \"nodemon -e js,ejs server.js\" \"yarn build:scss\"",
+    "start": "yarn build:scss && node server.js",
     "dev": "concurrently \"nodemon -e js,ejs server.js\" \"yarn watch:scss\"",
     "build": "netlify-lambda build express"
   },
