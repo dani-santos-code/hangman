@@ -49,9 +49,7 @@ If ID is incorrect or invalid, it returns the following:
 
 ```javascript
 {
-  {
-    error: "Please enter a valid ID";
-  }
+  error: "Please enter a valid ID";
 }
 ```
 
@@ -89,7 +87,7 @@ trueIndexes => _list_
 #### Demo
 
 **Winning flow**
-<img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/win.gif" height="300px" width="100%"/>
+<img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/win.gif" height="50%" width="100%"/>
 
 **Losing Flow**
-<img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/lose.gif" height="300px" width="100%"/>
+<img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/lose.gif" height="50%" width="100%"/>
