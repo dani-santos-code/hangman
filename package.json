@@ -8,8 +8,7 @@
     "watch:scss": "yarn build:scss && node-sass -w -r ./scss/ -o ./public/css/",
     "start": "yarn build:scss && node server.js",
     "dev": "concurrently \"nodemon -e js,ejs server.js\" \"yarn watch:scss\"",
-    "build": "concurrently \"nodemon -e js,ejs server.js\" \"yarn build:scss\"",
-    "postinstall": "netlify-lambda install"
+    "build": "concurrently \"nodemon -e js,ejs server.js\" \"yarn build:scss\""
   },
   "repository": {
     "type": "git",
