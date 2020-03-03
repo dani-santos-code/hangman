@@ -90,7 +90,7 @@ letterCount => _integer_
 trueIndexes => _list_
 ```
 
-#### Demo
+## Demo
 
 **Winning flow**
 <img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/win.gif" height="50%" width="100%"/>
