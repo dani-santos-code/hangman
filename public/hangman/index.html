@@ -27,10 +27,16 @@
             </button>
           </div>
         </div>
-        <form id="form" onsubmit="handleSubmit(event)">
+        <form id="form" onsubmit="handleSubmit(event)" autocomplete="off">
           <label for="letter" class="input-label"
             >Enter a Letter or....die!!!</label
           >
+          <input
+            autocomplete="false"
+            name="hidden"
+            type="text"
+            style="display:none;"
+          />
           <input
             class="letter-input"
             id="letter"

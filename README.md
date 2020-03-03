@@ -25,7 +25,7 @@ The backend is done in Node with Express
 
 - Created 2 main endpoints in a way that the word is never exposed to the frontend
 
-- Added a middleware to validate the wordId input coming from the FE
+- Added a middleware to validate the "wordId" input coming from the FE
 
 - Added a favicon to the page
 
@@ -61,8 +61,8 @@ If ID is incorrect or invalid, it returns the following:
 **Attributes**
 
 ```
-letterCount => _string_
-hint => _string_
+letterCount => string
+hint => string
 ```
 
 #### Guess Per Letter
@@ -91,8 +91,8 @@ server have the same length and all values in the array are true, the word will 
 **Attributes**
 
 ```
-letterCount => _integer_
-trueIndexes => _list_
+letterCount => integer
+trueIndexes => list
 ```
 
 ## Demo
