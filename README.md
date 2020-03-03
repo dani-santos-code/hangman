@@ -1,6 +1,6 @@
 ## About the Project
 
-This is a project done when I was attending the Full-Stack coding bootcamp at Concordia University.
+This is a project done when I was attending the Full-Stack coding bootcamp at [Concordia University](https://concordiabootcamps.ca/courses/full-stack-immersive/)
 
 ## Running The Project
 
@@ -54,8 +54,11 @@ If ID is incorrect or invalid, it returns the following:
 ```
 
 **Attributes**
+
+```
 letterCount => _string_
 hint => _string_
+```
 
 #### Guess Per Letter
 
@@ -81,8 +84,11 @@ With that, once the array in the client and the word in the
 server have the same length and all values in the array are true, the word will have been guessed.
 
 **Attributes**
+
+```
 letterCount => _integer_
 trueIndexes => _list_
+```
 
 #### Demo
 
