@@ -70,10 +70,8 @@ letterCount -> integer
 trueIndexes -> list
 ```
 
-**Winning flow** <img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/win.gif" height="300px"  width="600px"/>
+**Winning flow**
+<img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/win.gif" height="300px" width="600px"/>
 
-**Losing Flow** <img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/lose.gif" height="300px"  width="600px"/>
-
-```
-
-```
+**Losing Flow**
+<img src="https://github.com/dani-santos-code/hangman/blob/master/public/images/lose.gif" height="300px" width="600px"/>
