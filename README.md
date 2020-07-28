@@ -13,6 +13,8 @@ The backend is done in Node with Express
 
 ## What has been implemented
 
+- The answer is never exposed to the client
+
 - A dataset containing 20 words, including a hint to make it easier to guess the word. If the user clicks on the hint, they will lose 1 point
 
 - Score, starting at 10. Each miss will have the user lose 1 point.
