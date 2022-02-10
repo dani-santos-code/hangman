@@ -32,7 +32,7 @@
     "express": "^4.17.1",
     "fs": "^0.0.1-security",
     "morgan": "^1.9.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.2"
   },
   "homepage": "https://github.com/dani-santos-code/hangman#readme"
